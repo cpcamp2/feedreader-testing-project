@@ -60,7 +60,7 @@ $(function() {
      });
 
      // Check the entry to be sure that there is at least one
-     it("loadFeed it completes it's work and there is at least a single entry in the feed container", function(){
+     it("loadFeed completes it's work and there is at least a single entry in the feed container", function(){
        expect($('.entry').length).not.toBeLessThan(0);
      });
   });
